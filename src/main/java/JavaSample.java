@@ -30,7 +30,7 @@ public class JavaSample {
         WebDriverWait wait = new WebDriverWait(driver, 5);
         try {
             wait.until(ExpectedConditions.titleContains("BrowserStack"));
-            markTestStatus("passed","Yaay title contains 'BrowserStack'!",driver);
+            markTestStatus("passed","Yaayy title contains 'BrowserStack'!",driver);
         }
         catch(Exception e) {
             markTestStatus("failed","Naay title does not contain 'BrowserStack'!",driver);
