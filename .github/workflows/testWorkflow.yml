@@ -17,6 +17,9 @@ jobs:
       - name: 'Checkout the repository'
         uses: actions/checkout@v2
 
+      - name: 'Version'
+        run: mvn --version
+
       - name: 'Compile'
         run: mvn compile
 
